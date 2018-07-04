@@ -1,15 +1,14 @@
 version: "3"
 
 services:
-  service:
-    build: ../src/Crayons.Service
+  api:
+    build: ../src/Crayons.Api
     networks:
       - crayons-net
     ports:
-      - '5001:5000'
-
-  api:
-    build: ../src/Crayons.Api
+      - '5000:5000'
+  service:
+    build: ../src/Crayons.Service
     networks:
       - crayons-net
     ports:

@@ -7,4 +7,4 @@ ENV ASPNETCORE_ENVIRONMENT production
 
 WORKDIR app
 
-ENTRYPOINT dotnet run
+ENTRYPOINT dotnet Crayons.Api.dll
