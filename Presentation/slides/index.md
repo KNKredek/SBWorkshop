@@ -14,23 +14,46 @@
 
 ---
 
-## Eventy
+## Problemy komunikacji:
+* niezależność komponentów
+* podczas wywoływania metod z innych serwisów:
+    * przy zmianie w jednym serwisie, należy zmienić coś w innym
+    * brak niezależności
 
 ---
 
-## Commandy
+## Rozwiązanie?
+
+---
+
+## Komunikacja 
+* Events
+* Messages
+* Commands
+* ...
 
 ***
 
-## Narzędzia do komunikacji
+## Service bus
 
 ---
 
-## Service Bus
+## O co chodzi?
+* Miejsce, w którym wysyłamy wiadomości
+* Każdy może te wiadomości zdjąć
+* Możliwość wykorzystania wiadomości przez więcej niż jeden komponent
 
 ---
 
-## Service Broker
+## Schemat działania v1
+
+<img src="images/queue.png" style="background: transparent; border-style: none;"  />
+
+---
+
+## Schemat działania v2
+
+<img src="images/queue2.png" style="background: transparent; border-style: none;"  />
 
 ***
 
