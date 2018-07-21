@@ -61,6 +61,23 @@
 
 ***
 
+##Czy wiecie, że...
+Każdy z was korzystał z eventów?
+
+---
+
+##Co to?
+
+<img src="images/button.png" style="background: transparent; border-style: none;"  />
+
+---
+
+##A to?
+
+<img src="images/click.jpg" style="background: transparent; border-style: none;"  />
+
+***
+
 ## Pytania
 
 ***
