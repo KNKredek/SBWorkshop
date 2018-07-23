@@ -19,6 +19,7 @@
 * podczas wywoływania metod z innych serwisów:
     * przy zmianie w jednym serwisie, należy zmienić coś w innym
     * brak niezależności
+    * przy większej ilości - problemy z SLA(Netflix)
 
 ---
 
@@ -54,6 +55,24 @@
 ## Schemat działania v2
 
 <img src="images/queue2.png" style="background: transparent; border-style: none;"  />
+
+***
+
+## Pros & Cons
+
+---
+
+## Pros
+* asynchroniczność - jeden event przetwarzany na raz przez kilka serwisów
+* brak problemów z SLA
+* użytkownik nie musi siedzieć i czekać, aż post się wykona
+
+---
+
+## Cons
+* brak pewności wykonania działania
+* event może nie zostać obsłużony od razu
+* jak obsługiwać błędy?
 
 ***
 
